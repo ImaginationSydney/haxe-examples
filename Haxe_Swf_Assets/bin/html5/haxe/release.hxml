@@ -1,0 +1,27 @@
+-main ApplicationMain 
+-cp C:/HaxeToolkit/haxe/lib/openfl/3,3,1
+-D openfl=3.3.1
+-cp C:/HaxeToolkit/haxe/lib/lime/2,6,0
+-D lime=2.6.0
+-cp C:/HaxeToolkit/haxe/lib/actuate/1,8,6
+-D actuate=1.8.6
+-cp C:/HaxeToolkit/haxe/lib/swf/1,9,1
+-D swf=1.9.1
+-cp src
+-D openfl-next
+-D tools=2.6.0
+-D no-compilation
+-D lime-opengl
+-D openfl-html5
+-D canvas
+-D lime-html5
+-D fdb
+-D html5
+-D web
+--remap flash:openfl
+-dce full
+format.swf.lite.SWFLiteLibrary
+-js bin/html5/bin/HaxeSwfAssets.js
+-cp bin/html5/haxe
+-D html5
+--macro allowPackage("flash")

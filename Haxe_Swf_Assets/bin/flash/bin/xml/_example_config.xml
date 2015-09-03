@@ -1,0 +1,41 @@
+<!-- 
+EXTERNAL APP CONFIG 
+Values from this xml file will be injected into
+$(PackageName).model.config.ConfigModel on initialization.
+-->
+
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<!-- example values, delete once you get the idea -->
+	<example_static_string>static example</example_static_string>
+	<example_static_number>-108.86</example_static_number>
+	
+	<example_int>1</example_int>
+	<example_number>-98.465</example_number>
+	<example_uint>#88FF00</example_uint>
+	<example_uint2>0x88FF00</example_uint2>
+	<example_string>string example</example_string>
+	<example_boolean>true</example_boolean>
+	<example_array>true,false,TRUE,FALSE,0x44FF33,#8899DD,10.99,-10.99,1,-1,2147483648,-2147483648,string</example_array>
+	<example_vector>1,2,3</example_vector>
+	<example_XML>
+		<xml>
+			<item id="id1">test</item>
+		</xml>
+	</example_XML>
+	<example_JSON>
+		{"widget": {
+			"debug": true,
+			"window": {
+				"name": "main_window",
+				"width": 500,
+				"height": 500
+			},
+			"image": { 
+				"src": "Images/Sun.png",
+				"name": "sun1",
+				"alignment": "center"
+			}
+		}} 
+	</example_JSON>
+</data>
