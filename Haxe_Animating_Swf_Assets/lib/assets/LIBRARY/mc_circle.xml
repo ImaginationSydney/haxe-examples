@@ -1,0 +1,26 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="mc_circle" itemID="55e838a8-0000000a" lastModified="1441282216">
+  <timeline>
+    <DOMTimeline name="mc_circle">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#0066FF"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!1451 0S2[1451 535 1026 913!1026 913[601 1291 0 1291!0 1291[-601 1291 -1026 913!-1026 913[-1451 535 -1451 0!-1451 0[-1451 -535 -1026 -913!-1026 -913[-601 -1291 0 -1291!0 -1291[601 -1291 1026 -913!1026 -913[1451 -535 1451 0"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

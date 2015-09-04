@@ -1,0 +1,38 @@
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" currentTimeline="1" xflVersion="2.5" creatorInfo="Adobe Flash Professional CC" platform="Windows" versionInfo="Saved by Adobe Flash Windows 14.2 build 20" majorVersion="14" minorVersion="2" buildNumber="20" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="DD0DDBBF-5BEF-45B2-9F24-A3048D2A676F">
+     <symbols>
+          <Include href="mc_assets.xml" itemID="55e838c0-00000012" lastModified="1441295715"/>
+          <Include href="mc_circle.xml" loadImmediate="false" itemID="55e838a8-0000000a" lastModified="1441282216"/>
+          <Include href="mc_shape.xml" loadImmediate="false" itemID="55e838b8-0000000e" lastModified="1441282232"/>
+          <Include href="mc_square.xml" loadImmediate="false" itemID="55e83897-00000005" lastModified="1441282199"/>
+     </symbols>
+     <timelines>
+          <DOMTimeline name="Scene 1">
+               <layers>
+                    <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="mc_assets" selected="true">
+                                             <matrix>
+                                                  <Matrix tx="275.55" ty="200"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timelines>
+     <PrinterSettings/>
+     <publishHistory>
+          <PublishItem publishSize="741" publishTime="1441295651"/>
+          <PublishItem publishSize="588" publishTime="1441293831"/>
+          <PublishItem publishSize="588" publishTime="1441293795"/>
+          <PublishItem publishSize="702" publishTime="1441282895"/>
+          <PublishItem publishSize="702" publishTime="1441282287"/>
+     </publishHistory>
+</DOMDocument>

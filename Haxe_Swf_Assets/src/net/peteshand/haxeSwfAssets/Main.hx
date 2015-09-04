@@ -21,5 +21,4 @@ class Main extends Sprite
 		clip.x = stage.stageWidth / 2;
 		clip.y = stage.stageHeight / 2;
 	}
-
 }
