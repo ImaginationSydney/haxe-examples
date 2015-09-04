@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="mc_assets" itemID="55e838c0-00000012" linkageExportForAS="true" linkageClassName="Mc_Assets" lastModified="1441295715" lastUniqueIdentifier="1">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="mc_assets" itemID="55e838c0-00000012" linkageExportForAS="true" linkageClassName="Mc_Assets" lastModified="1441361469" lastUniqueIdentifier="1">
   <timeline>
     <DOMTimeline name="mc_assets">
       <layers>
@@ -6,7 +6,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="mc_circle" name="mc_circle">
+                <DOMSymbolInstance libraryItemName="mc_stamp1" name="mc_stamp1">
                   <matrix>
                     <Matrix tx="105" ty="-6.75"/>
                   </matrix>
@@ -14,7 +14,7 @@
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="mc_shape" name="mc_shape">
+                <DOMSymbolInstance libraryItemName="mc_stamp2" name="mc_stamp2">
                   <matrix>
                     <Matrix tx="-128.55" ty="71.95"/>
                   </matrix>
@@ -22,7 +22,7 @@
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="mc_square" name="mc_square">
+                <DOMSymbolInstance libraryItemName="mc_stamp3" name="mc_stamp3">
                   <matrix>
                     <Matrix tx="-85.1" ty="-62.25"/>
                   </matrix>

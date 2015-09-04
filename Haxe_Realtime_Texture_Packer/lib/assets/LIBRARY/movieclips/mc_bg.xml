@@ -1,0 +1,32 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="movieclips/mc_bg" itemID="55e98171-00000160" lastModified="1441386172">
+  <timeline>
+    <DOMTimeline name="mc_bg">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="0" b="-0.1953125" c="0.191818237304688" d="0"/>
+                        </matrix>
+                        <GradientEntry color="#8AB833" ratio="0"/>
+                        <GradientEntry color="#FFC643" ratio="1"/>
+                      </LinearGradient>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!-4000 -3200|4000 -3200!4000 -3200|4000 3200!4000 3200|-4000 3200!-4000 3200|-4000 -3200"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

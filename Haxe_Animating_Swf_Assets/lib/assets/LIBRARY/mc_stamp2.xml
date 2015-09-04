@@ -1,0 +1,24 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="mc_stamp2" itemID="55e96e2b-0000003d" lastModified="1441361451">
+  <timeline>
+    <DOMTimeline name="mc_stamp2">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="mail.png">
+                  <matrix>
+                    <Matrix a="0.5" d="0.5" tx="-64" ty="-64"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="128" y="128"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

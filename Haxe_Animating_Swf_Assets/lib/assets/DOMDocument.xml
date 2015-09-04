@@ -1,9 +1,14 @@
 <DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" currentTimeline="1" xflVersion="2.5" creatorInfo="Adobe Flash Professional CC" platform="Windows" versionInfo="Saved by Adobe Flash Windows 14.2 build 20" majorVersion="14" minorVersion="2" buildNumber="20" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="DD0DDBBF-5BEF-45B2-9F24-A3048D2A676F">
+     <media>
+          <DOMBitmapItem name="delicious.png" itemID="55e96be6-0000001d" sourceExternalFilepath="../assets/LIBRARY/delicious.png" sourceLastImported="1327487404" allowSmoothing="true" useImportedJPEGData="false" useDeblocking="true" originalCompressionType="lossless" quality="50" href="delicious.png" bitmapDataHRef="M 1 1441360908.dat" frameRight="5120" frameBottom="5120"/>
+          <DOMBitmapItem name="design-float.png" itemID="55e96be6-0000001e" sourceExternalFilepath="../assets/LIBRARY/design-float.png" sourceLastImported="1327487220" allowSmoothing="true" useImportedJPEGData="false" useDeblocking="true" originalCompressionType="lossless" quality="50" href="design-float.png" bitmapDataHRef="M 3 1441360908.dat" frameRight="5120" frameBottom="5120"/>
+          <DOMBitmapItem name="mail.png" itemID="55e96be6-0000001f" sourceExternalFilepath="../assets/LIBRARY/mail.png" sourceLastImported="1327487686" allowSmoothing="true" useImportedJPEGData="false" useDeblocking="true" originalCompressionType="lossless" quality="50" href="mail.png" bitmapDataHRef="M 2 1441360908.dat" frameRight="5120" frameBottom="5120"/>
+     </media>
      <symbols>
-          <Include href="mc_assets.xml" itemID="55e838c0-00000012" lastModified="1441295715"/>
-          <Include href="mc_circle.xml" loadImmediate="false" itemID="55e838a8-0000000a" lastModified="1441282216"/>
-          <Include href="mc_shape.xml" loadImmediate="false" itemID="55e838b8-0000000e" lastModified="1441282232"/>
-          <Include href="mc_square.xml" loadImmediate="false" itemID="55e83897-00000005" lastModified="1441282199"/>
+          <Include href="mc_assets.xml" itemID="55e838c0-00000012" lastModified="1441361469"/>
+          <Include href="mc_stamp1.xml" loadImmediate="false" itemID="55e96e28-0000003c" lastModified="1441361448"/>
+          <Include href="mc_stamp2.xml" loadImmediate="false" itemID="55e96e2b-0000003d" lastModified="1441361451"/>
+          <Include href="mc_stamp3.xml" loadImmediate="false" itemID="55e96e2d-0000003e" lastModified="1441361453"/>
      </symbols>
      <timelines>
           <DOMTimeline name="Scene 1">
@@ -14,7 +19,7 @@
                                    <elements>
                                         <DOMSymbolInstance libraryItemName="mc_assets" selected="true">
                                              <matrix>
-                                                  <Matrix tx="275.55" ty="200"/>
+                                                  <Matrix tx="287.25" ty="195.6"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point/>
@@ -29,6 +34,8 @@
      </timelines>
      <PrinterSettings/>
      <publishHistory>
+          <PublishItem publishSize="60227" publishTime="1441361471"/>
+          <PublishItem publishSize="60235" publishTime="1441360926"/>
           <PublishItem publishSize="741" publishTime="1441295651"/>
           <PublishItem publishSize="588" publishTime="1441293831"/>
           <PublishItem publishSize="588" publishTime="1441293795"/>

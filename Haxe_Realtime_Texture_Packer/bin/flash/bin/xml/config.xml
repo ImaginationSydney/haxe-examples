@@ -1,0 +1,11 @@
+<!-- 
+EXTERNAL APP CONFIG 
+Values from this xml file will be injected into
+$(PackageName).model.config.ConfigModel on initialization.
+reference bin/xml/_example_config.xml
+-->
+
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	
+</data>
