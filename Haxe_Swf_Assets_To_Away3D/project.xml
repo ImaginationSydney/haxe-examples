@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<meta title="Haxe_Swf_Assets_To_Away3D" package="net.peteshand.swfAssetsToAway3D.HaxeSwfAssetsToAway3D" version="1.0.0" company="P.J.Shand" />
+	
+	<!-- output -->
+	<app main="net.peteshand.swfAssetsToAway3D.Main" file="HaxeSwfAssetsToAway3D" path="bin" />
+	
+	<window background="#000000" fps="60" />
+	<window width="500" height="400" fps="60" />
+	<window width="0" height="0" fps="60" if="html5" />
+	
+	<!-- classpath, haxe libs -->
+	<source path="src" />
+	
+	<haxelib name="openfl" />
+	<haxelib name="actuate" />
+	<haxelib name="away3d" />
+	<haxelib name="swf" />
+	<haxelib name="texture-packer" />
+	
+	<!-- assets -->
+	<icon path="assets/openfl.svg" />
+	<assets path="assets/img" rename="img" />
+	
+	<assets path="swf" rename="swf" />
+	
+	
+	<library path="swf/assets.swf" type="swflite" preload="true" generate="true" />
+	
+	<haxedef name="dom" if="html5" />
+	
+	<!-- optimize output -->
+	<!--<haxeflag name="-dce full" />-->
+	
+</project>

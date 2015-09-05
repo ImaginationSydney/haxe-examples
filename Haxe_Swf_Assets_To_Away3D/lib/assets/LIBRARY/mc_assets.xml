@@ -1,0 +1,189 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="mc_assets" itemID="55e838c0-00000012" linkageExportForAS="true" linkageClassName="Mc_Assets" lastModified="1441386105" lastUniqueIdentifier="1">
+  <timeline>
+    <DOMTimeline name="mc_assets">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="movieclips/mc_item1" name="mc_item1">
+                  <matrix>
+                    <Matrix tx="-139" ty="-106"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="movieclips/mc_item2" name="mc_item2">
+                  <matrix>
+                    <Matrix tx="-69" ty="-106"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="movieclips/mc_item3" name="mc_item3">
+                  <matrix>
+                    <Matrix tx="1" ty="-106"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="movieclips/mc_item4" name="mc_item4">
+                  <matrix>
+                    <Matrix tx="71" ty="-106"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="movieclips/mc_item5" name="mc_item5">
+                  <matrix>
+                    <Matrix tx="141" ty="-106"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="movieclips/mc_item6" name="mc_item6">
+                  <matrix>
+                    <Matrix tx="-139" ty="-36"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="movieclips/mc_item7" name="mc_item7">
+                  <matrix>
+                    <Matrix tx="-69" ty="-36"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="movieclips/mc_item8" name="mc_item8">
+                  <matrix>
+                    <Matrix tx="1" ty="-36"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="movieclips/mc_item9" name="mc_item9">
+                  <matrix>
+                    <Matrix tx="71" ty="-36"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="movieclips/mc_item10" name="mc_item10">
+                  <matrix>
+                    <Matrix tx="141" ty="-36"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="movieclips/mc_item11" name="mc_item11">
+                  <matrix>
+                    <Matrix tx="-139" ty="34"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="movieclips/mc_item12" name="mc_item12">
+                  <matrix>
+                    <Matrix tx="-69" ty="34"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="movieclips/mc_item13" name="mc_item13">
+                  <matrix>
+                    <Matrix tx="1" ty="34"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="movieclips/mc_item14" name="mc_item14">
+                  <matrix>
+                    <Matrix tx="71" ty="34"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="movieclips/mc_item15" name="mc_item15">
+                  <matrix>
+                    <Matrix tx="141" ty="34"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="movieclips/mc_item16" name="mc_item16">
+                  <matrix>
+                    <Matrix tx="-139" ty="104"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="movieclips/mc_item17" name="mc_item17">
+                  <matrix>
+                    <Matrix tx="-69" ty="104"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="movieclips/mc_item18" name="mc_item18">
+                  <matrix>
+                    <Matrix tx="1" ty="104"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="movieclips/mc_item19" name="mc_item19">
+                  <matrix>
+                    <Matrix tx="71" ty="104"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="movieclips/mc_item20" name="mc_item20">
+                  <matrix>
+                    <Matrix tx="141" ty="104"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="movieclips/mc_bg" name="mc_bg" selected="true">
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
