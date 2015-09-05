@@ -19,14 +19,14 @@
     <class path="C:\HaxeToolkit\haxe\lib\openfl\3,3,2" />
     <class path="C:\HaxeToolkit\haxe\lib\lime\2,6,1" />
     <class path="C:\HaxeToolkit\haxe\lib\actuate\1,8,6" />
+    <class path="C:\HaxeToolkit\haxe\lib\texture-packer\0,0,1" />
     <class path="C:\HaxeToolkit\haxe\lib\swf\1,9,1" />
     <class path="src" />
-    <class path="C:\_projects\Imagination\9084-realtime-texture-packer" />
     <class path="bin\flash\haxe" />
   </classpaths>
   <!-- Build options -->
   <build>
-    <option directives="openfl=3.3.2&#xA;lime=2.6.1&#xA;actuate=1.8.6&#xA;swf=1.9.1&#xA;openfl-next&#xA;tools=2.6.1&#xA;no-compilation&#xA;openfl-flash&#xA;web" />
+    <option directives="openfl=3.3.2&#xA;lime=2.6.1&#xA;actuate=1.8.6&#xA;texture-packer=0.0.1&#xA;swf=1.9.1&#xA;openfl-next&#xA;tools=2.6.1&#xA;no-compilation&#xA;openfl-flash&#xA;web" />
     <option flashStrict="False" />
     <option noInlineOnDebug="False" />
     <option mainClass="ApplicationMain" />
