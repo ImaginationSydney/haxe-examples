@@ -1,23 +1,16 @@
 package net.peteshand.swfAssetsToAway3D;
 
 import away3d.containers.View3D;
-import away3d.core.base.CompactSubGeometry;
 import away3d.core.base.Geometry;
-import away3d.core.base.ISubGeometry;
 import away3d.entities.Mesh;
-import away3d.materials.ColorMaterial;
-import away3d.primitives.CubeGeometry;
 import com.imagination.texturePacker.api.convert.away3D.IAway3DPackage;
-import com.imagination.texturePacker.api.IAtlasPackage;
-import com.imagination.texturePacker.impl.convert.Convert;
+import com.imagination.texturePacker.impl.convert.away3D.Away3DConverter;
 import com.imagination.texturePacker.impl.TexturePacker;
-import openfl.display.Bitmap;
 import openfl.display.Sprite;
 import openfl.events.Event;
+import openfl.events.MouseEvent;
 import openfl.geom.Matrix3D;
 import openfl.geom.Vector3D;
-import openfl.Lib;
-import openfl.Vector;
 
 /**
  * ...
@@ -27,6 +20,7 @@ class Main extends Sprite
 {
 	private var _view:View3D;
 	private var placement:Float = 0;
+	var inactive:Sprite;
 	
 	public function new() 
 	{
@@ -35,8 +29,6 @@ class Main extends Sprite
 		var clip:Sprite = new Mc_Assets();
         
 		TexturePacker.TARGET_TEXTURE_SIZE.setTo(1024, 512);
-		//TexturePacker.AUTO_INCREASE_TEXTURE_SIZE = true;
-		//TexturePacker.debug = true;
 		
 		_view = new View3D();
 		this.addChild(_view);
@@ -49,13 +41,41 @@ class Main extends Sprite
 		_view.camera.z = -600;
 		_view.camera.lookAt(new Vector3D());
 		
-		var away3DPackage:IAway3DPackage = Convert.toAway3D(clip);
+		var away3DPackage:IAway3DPackage = Away3DConverter.parse(clip);
 		_view.scene.addChild(away3DPackage.container);
 		
 		var bg:Mesh = away3DPackage.meshByName("mc_bg");
 		bg.z += 20;
 		adjustMeshAnchor(bg, 500);
 		
+		stage.addEventListener(MouseEvent.MOUSE_MOVE, OnMouseMove);
+		stage.addEventListener(Event.MOUSE_LEAVE, OnMouseLeave);
+		
+		addEventListener(Event.ENTER_FRAME, NextFrame);
+		_view.render();
+		
+		inactive = new Sprite();
+		inactive.graphics.beginFill(0x000000);
+		inactive.graphics.drawRect(0, 0, stage.stageWidth, stage.stageHeight);
+		addChild(inactive);
+		inactive.alpha = 0.7;
+	}
+	
+	private function NextFrame(e:Event):Void 
+	{
+		removeEventListener(Event.ENTER_FRAME, NextFrame);
+		_view.render();
+	}
+	
+	private function OnMouseLeave(e:Event):Void 
+	{
+		inactive.alpha = 0.7;
+		removeEventListener(Event.ENTER_FRAME, Update);
+	}
+	
+	private function OnMouseMove(e:MouseEvent):Void 
+	{
+		inactive.alpha = 0;
 		addEventListener(Event.ENTER_FRAME, Update);
 	}
 	
@@ -79,8 +99,5 @@ class Main extends Sprite
 		{	
 			subGeometry.applyTransformation(matrix);
 		}
-		/*geometry.subGeometries.forEach(function(item:CompactSubGeometry, index:Int, vector:Vector<ISubGeometry>):Void {
-			item.applyTransformation(matrix);
-		});*/
 	}
 }

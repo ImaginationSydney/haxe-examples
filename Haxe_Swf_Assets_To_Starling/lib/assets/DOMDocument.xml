@@ -1,0 +1,93 @@
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" currentTimeline="1" xflVersion="2.5" creatorInfo="Adobe Flash Professional CC" platform="Windows" versionInfo="Saved by Adobe Flash Windows 14.2 build 20" majorVersion="14" minorVersion="2" buildNumber="20" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="DD0DDBBF-5BEF-45B2-9F24-A3048D2A676F">
+     <folders>
+          <DOMFolderItem name="images" itemID="55e976db-000000b6"/>
+          <DOMFolderItem name="movieclips" itemID="55e9810e-0000015e"/>
+     </folders>
+     <media>
+          <DOMBitmapItem name="images/basket-empty.png" itemID="55e977d3-00000147" sourceExternalFilepath="../assets/LIBRARY/images/basket-empty.png" sourceLastImported="1310531658" externalFileCRC32="24002897" externalFileSize="8392" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="images/basket-empty.png" bitmapDataHRef="M 13 1441363640.dat" frameRight="1280" frameBottom="1280"/>
+          <DOMBitmapItem name="images/basket-full.png" itemID="55e977d3-00000148" sourceExternalFilepath="../assets/LIBRARY/images/basket-full.png" sourceLastImported="1310531658" externalFileCRC32="1242712265" externalFileSize="9530" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="images/basket-full.png" bitmapDataHRef="M 14 1441363640.dat" frameRight="1280" frameBottom="1280"/>
+          <DOMBitmapItem name="images/chat-support.png" itemID="55e977d3-00000149" sourceExternalFilepath="../assets/LIBRARY/images/chat-support.png" sourceLastImported="1310531660" externalFileCRC32="180274086" externalFileSize="5983" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="images/chat-support.png" bitmapDataHRef="M 15 1441363640.dat" frameRight="1280" frameBottom="1280"/>
+          <DOMBitmapItem name="images/checklist.png" itemID="55e977d3-0000014a" sourceExternalFilepath="../assets/LIBRARY/images/checklist.png" sourceLastImported="1310531660" externalFileCRC32="132890635" externalFileSize="3891" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="images/checklist.png" bitmapDataHRef="M 16 1441363640.dat" frameRight="1280" frameBottom="1280"/>
+          <DOMBitmapItem name="images/checkout.png" itemID="55e977d3-0000014b" sourceExternalFilepath="../assets/LIBRARY/images/checkout.png" sourceLastImported="1310531660" externalFileCRC32="3423478781" externalFileSize="9935" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="images/checkout.png" bitmapDataHRef="M 17 1441363640.dat" frameRight="1280" frameBottom="1280"/>
+          <DOMBitmapItem name="images/contact.png" itemID="55e977d3-0000014c" sourceExternalFilepath="../assets/LIBRARY/images/contact.png" sourceLastImported="1310531660" externalFileCRC32="3352195498" externalFileSize="5772" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="images/contact.png" bitmapDataHRef="M 18 1441363640.dat" frameRight="1280" frameBottom="1280"/>
+          <DOMBitmapItem name="images/credit-cards.png" itemID="55e977d3-0000014d" sourceExternalFilepath="../assets/LIBRARY/images/credit-cards.png" sourceLastImported="1310531658" externalFileCRC32="2349003202" externalFileSize="3916" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="images/credit-cards.png" bitmapDataHRef="M 19 1441363640.dat" frameRight="1280" frameBottom="1280"/>
+          <DOMBitmapItem name="images/delivery.png" itemID="55e977d3-0000014e" sourceExternalFilepath="../assets/LIBRARY/images/delivery.png" sourceLastImported="1310531658" externalFileCRC32="2259382506" externalFileSize="9105" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="images/delivery.png" bitmapDataHRef="M 20 1441363640.dat" frameRight="1280" frameBottom="1280"/>
+          <DOMBitmapItem name="images/downloads.png" itemID="55e977d3-0000014f" sourceExternalFilepath="../assets/LIBRARY/images/downloads.png" sourceLastImported="1310531660" externalFileCRC32="803585935" externalFileSize="9216" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="images/downloads.png" bitmapDataHRef="M 21 1441363640.dat" frameRight="1280" frameBottom="1280"/>
+          <DOMBitmapItem name="images/empty-cart.png" itemID="55e977d3-00000150" sourceExternalFilepath="../assets/LIBRARY/images/empty-cart.png" sourceLastImported="1310531658" externalFileCRC32="1025126313" externalFileSize="9026" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="images/empty-cart.png" bitmapDataHRef="M 22 1441363640.dat" frameRight="1280" frameBottom="1280"/>
+          <DOMBitmapItem name="images/full-cart.png" itemID="55e977d3-00000151" sourceExternalFilepath="../assets/LIBRARY/images/full-cart.png" sourceLastImported="1310531658" externalFileCRC32="1032203604" externalFileSize="10033" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="images/full-cart.png" bitmapDataHRef="M 23 1441363640.dat" frameRight="1280" frameBottom="1280"/>
+          <DOMBitmapItem name="images/gifts.png" itemID="55e977d3-00000152" sourceExternalFilepath="../assets/LIBRARY/images/gifts.png" sourceLastImported="1310531660" externalFileCRC32="917848115" externalFileSize="8808" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="images/gifts.png" bitmapDataHRef="M 4 1441363640.dat" frameRight="1280" frameBottom="1280"/>
+          <DOMBitmapItem name="images/loaded-truck.png" itemID="55e977d3-00000153" sourceExternalFilepath="../assets/LIBRARY/images/loaded-truck.png" sourceLastImported="1310531658" externalFileCRC32="3719597065" externalFileSize="8475" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="images/loaded-truck.png" bitmapDataHRef="M 5 1441363640.dat" frameRight="1280" frameBottom="1280"/>
+          <DOMBitmapItem name="images/search.png" itemID="55e977d3-00000154" sourceExternalFilepath="../assets/LIBRARY/images/search.png" sourceLastImported="1310531660" externalFileCRC32="2070597687" externalFileSize="6655" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="images/search.png" bitmapDataHRef="M 6 1441363640.dat" frameRight="1280" frameBottom="1280"/>
+          <DOMBitmapItem name="images/secure-payment.png" itemID="55e977d3-00000155" sourceExternalFilepath="../assets/LIBRARY/images/secure-payment.png" sourceLastImported="1310531658" externalFileCRC32="3370208704" externalFileSize="4011" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="images/secure-payment.png" bitmapDataHRef="M 7 1441363640.dat" frameRight="1280" frameBottom="1280"/>
+          <DOMBitmapItem name="images/shop-closed.png" itemID="55e977d3-00000156" sourceExternalFilepath="../assets/LIBRARY/images/shop-closed.png" sourceLastImported="1310531660" externalFileCRC32="1169541337" externalFileSize="7547" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="images/shop-closed.png" bitmapDataHRef="M 8 1441363640.dat" frameRight="1280" frameBottom="1280"/>
+          <DOMBitmapItem name="images/shop-open.png" itemID="55e977d3-00000157" sourceExternalFilepath="../assets/LIBRARY/images/shop-open.png" sourceLastImported="1310531660" externalFileCRC32="1886537833" externalFileSize="7584" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="images/shop-open.png" bitmapDataHRef="M 9 1441363640.dat" frameRight="1280" frameBottom="1280"/>
+          <DOMBitmapItem name="images/shopping-bag.png" itemID="55e977d3-00000158" sourceExternalFilepath="../assets/LIBRARY/images/shopping-bag.png" sourceLastImported="1310531658" externalFileCRC32="4110700339" externalFileSize="8213" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="images/shopping-bag.png" bitmapDataHRef="M 10 1441363640.dat" frameRight="1280" frameBottom="1280"/>
+          <DOMBitmapItem name="images/telephone.png" itemID="55e977d3-00000159" sourceExternalFilepath="../assets/LIBRARY/images/telephone.png" sourceLastImported="1310531660" externalFileCRC32="257084404" externalFileSize="8022" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="images/telephone.png" bitmapDataHRef="M 11 1441363640.dat" frameRight="1280" frameBottom="1280"/>
+          <DOMBitmapItem name="images/wallet.png" itemID="55e977d3-0000015a" sourceExternalFilepath="../assets/LIBRARY/images/wallet.png" sourceLastImported="1310531660" externalFileCRC32="2726985513" externalFileSize="8661" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="images/wallet.png" bitmapDataHRef="M 12 1441363640.dat" frameRight="1280" frameBottom="1280"/>
+     </media>
+     <symbols>
+          <Include href="mc_assets.xml" itemID="55e838c0-00000012" lastModified="1441386105"/>
+          <Include href="movieclips/mc_bg.xml" loadImmediate="false" itemID="55e98171-00000160" lastModified="1441386172"/>
+          <Include href="movieclips/mc_item1.xml" loadImmediate="false" itemID="55e97754-000000d0" lastModified="1441363796"/>
+          <Include href="movieclips/mc_item2.xml" loadImmediate="false" itemID="55e9775c-000000d6" lastModified="1441363804"/>
+          <Include href="movieclips/mc_item3.xml" loadImmediate="false" itemID="55e97765-000000dc" lastModified="1441363813"/>
+          <Include href="movieclips/mc_item4.xml" loadImmediate="false" itemID="55e9776b-000000e2" lastModified="1441363819"/>
+          <Include href="movieclips/mc_item5.xml" loadImmediate="false" itemID="55e97772-000000e8" lastModified="1441363826"/>
+          <Include href="movieclips/mc_item6.xml" loadImmediate="false" itemID="55e97777-000000ee" lastModified="1441363831"/>
+          <Include href="movieclips/mc_item7.xml" loadImmediate="false" itemID="55e9777e-000000f4" lastModified="1441363838"/>
+          <Include href="movieclips/mc_item8.xml" loadImmediate="false" itemID="55e97784-000000fa" lastModified="1441363844"/>
+          <Include href="movieclips/mc_item9.xml" loadImmediate="false" itemID="55e97789-00000100" lastModified="1441363849"/>
+          <Include href="movieclips/mc_item10.xml" loadImmediate="false" itemID="55e9778f-00000106" lastModified="1441363855"/>
+          <Include href="movieclips/mc_item11.xml" loadImmediate="false" itemID="55e97795-0000010c" lastModified="1441363861"/>
+          <Include href="movieclips/mc_item12.xml" loadImmediate="false" itemID="55e9779a-00000112" lastModified="1441363866"/>
+          <Include href="movieclips/mc_item13.xml" loadImmediate="false" itemID="55e9779f-00000118" lastModified="1441363871"/>
+          <Include href="movieclips/mc_item14.xml" loadImmediate="false" itemID="55e977a6-0000011e" lastModified="1441363878"/>
+          <Include href="movieclips/mc_item15.xml" loadImmediate="false" itemID="55e977ac-00000124" lastModified="1441363884"/>
+          <Include href="movieclips/mc_item16.xml" loadImmediate="false" itemID="55e977b4-0000012a" lastModified="1441363892"/>
+          <Include href="movieclips/mc_item17.xml" loadImmediate="false" itemID="55e977bb-00000130" lastModified="1441363899"/>
+          <Include href="movieclips/mc_item18.xml" loadImmediate="false" itemID="55e977c2-00000136" lastModified="1441363906"/>
+          <Include href="movieclips/mc_item19.xml" loadImmediate="false" itemID="55e977c8-0000013c" lastModified="1441363912"/>
+          <Include href="movieclips/mc_item20.xml" loadImmediate="false" itemID="55e977cf-00000142" lastModified="1441363919"/>
+     </symbols>
+     <timelines>
+          <DOMTimeline name="Scene 1">
+               <layers>
+                    <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="mc_assets" selected="true">
+                                             <matrix>
+                                                  <Matrix tx="274" ty="201"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timelines>
+     <PrinterSettings/>
+     <publishHistory>
+          <PublishItem publishSize="49313" publishTime="1441386177"/>
+          <PublishItem publishSize="49308" publishTime="1441386147"/>
+          <PublishItem publishSize="49308" publishTime="1441386125"/>
+          <PublishItem publishSize="49295" publishTime="1441386082"/>
+          <PublishItem publishSize="49295" publishTime="1441386013"/>
+          <PublishItem publishSize="49281" publishTime="1441385928"/>
+          <PublishItem publishSize="49281" publishTime="1441385819"/>
+          <PublishItem publishSize="49184" publishTime="1441363935"/>
+          <PublishItem publishSize="49184" publishTime="1441363925"/>
+          <PublishItem publishSize="60227" publishTime="1441361471"/>
+          <PublishItem publishSize="60235" publishTime="1441360926"/>
+          <PublishItem publishSize="741" publishTime="1441295651"/>
+          <PublishItem publishSize="588" publishTime="1441293831"/>
+          <PublishItem publishSize="588" publishTime="1441293795"/>
+          <PublishItem publishSize="702" publishTime="1441282895"/>
+          <PublishItem publishSize="702" publishTime="1441282287"/>
+     </publishHistory>
+</DOMDocument>
