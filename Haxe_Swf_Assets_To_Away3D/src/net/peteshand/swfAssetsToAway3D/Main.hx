@@ -6,6 +6,8 @@ import away3d.entities.Mesh;
 import com.imagination.texturePacker.api.convert.away3D.IAway3DPackage;
 import com.imagination.texturePacker.impl.convert.away3D.Away3DConverter;
 import com.imagination.texturePacker.impl.TexturePacker;
+import motion.Actuate;
+import motion.easing.Quad;
 import openfl.display.Sprite;
 import openfl.events.Event;
 import openfl.events.MouseEvent;
@@ -21,6 +23,7 @@ class Main extends Sprite
 	private var _view:View3D;
 	private var placement:Float = 0;
 	var inactive:Sprite;
+	var away3DPackage:IAway3DPackage;
 	
 	public function new() 
 	{
@@ -41,14 +44,17 @@ class Main extends Sprite
 		_view.camera.z = -600;
 		_view.camera.lookAt(new Vector3D());
 		
-		var away3DPackage:IAway3DPackage = Away3DConverter.parse(clip);
+		away3DPackage = Away3DConverter.parse(clip);
 		_view.scene.addChild(away3DPackage.container);
 		
 		var bg:Mesh = away3DPackage.meshByName("mc_bg");
 		bg.z += 20;
 		adjustMeshAnchor(bg, 500);
 		
+		UpdatePositionZ();
+		
 		stage.addEventListener(MouseEvent.MOUSE_MOVE, OnMouseMove);
+		stage.addEventListener(MouseEvent.CLICK, OnMouseClick);
 		stage.addEventListener(Event.MOUSE_LEAVE, OnMouseLeave);
 		
 		addEventListener(Event.ENTER_FRAME, NextFrame);
@@ -59,6 +65,20 @@ class Main extends Sprite
 		inactive.graphics.drawRect(0, 0, stage.stageWidth, stage.stageHeight);
 		addChild(inactive);
 		inactive.alpha = 0.7;
+	}
+	
+	private function OnMouseClick(e:MouseEvent):Void 
+	{
+		UpdatePositionZ();
+	}
+	
+	function UpdatePositionZ() 
+	{
+		for (i in 1...21) 
+		{
+			var item:Mesh = away3DPackage.meshByName("mc_item" + i);
+			Actuate.tween(item, 0.5, { z: -250 * Math.random() } ).ease(Quad.easeInOut);
+		}
 	}
 	
 	private function NextFrame(e:Event):Void 

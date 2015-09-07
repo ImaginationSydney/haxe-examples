@@ -185,7 +185,7 @@ class ApplicationMain {
 		
 		config = {
 			
-			build: "36",
+			build: "41",
 			company: "P.J.Shand",
 			file: "HaxeSwfAssetsToStarling",
 			fps: 60,

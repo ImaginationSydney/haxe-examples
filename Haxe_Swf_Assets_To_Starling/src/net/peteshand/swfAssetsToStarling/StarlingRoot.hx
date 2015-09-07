@@ -1,7 +1,6 @@
 package net.peteshand.swfAssetsToStarling;
 
 import com.imagination.texturePacker.api.convert.starling.IStarlingPackage;
-import com.imagination.texturePacker.impl.convert.Convert;
 import com.imagination.texturePacker.impl.convert.starling.StarlingConverter;
 import openfl.events.MouseEvent;
 import starling.core.Starling;
